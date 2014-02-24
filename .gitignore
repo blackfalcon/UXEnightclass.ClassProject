@@ -4,6 +4,9 @@
 # No node packages
 node_modules/
 
+# No stylesheets
+public/stylesheets/*.css
+
 .DS_Store
 .DS_Store?
 ._*
