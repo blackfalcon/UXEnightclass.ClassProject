@@ -362,9 +362,6 @@ footer{
 MEDIA QUIRIES
 ***************************/
 
-/* #Media Queries
-================================================== */
-
 @media only screen  and (max-width: 959px) {
   .logo-icon img {
    /* left: -8.3em*/
@@ -400,15 +397,11 @@ MEDIA QUIRIES
 }
 
   @media only screen and (max-width: 480px) {
-/*    body {
-      background-color: lightgrey;
-    }*/
 
   .featured-meals-primary {
      height: 38em;
   }
   .logo-icon img {
-  /*  left: -22.2em*/
   }
 }
 
