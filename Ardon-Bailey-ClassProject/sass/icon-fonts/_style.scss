@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'icomoon';
+  src:url('fonts/icomoon.eot?-7b5586');
+  src:url('fonts/icomoon.eot?#iefix-7b5586') format('embedded-opentype'),
+    url('fonts/icomoon.woff?-7b5586') format('woff'),
+    url('fonts/icomoon.ttf?-7b5586') format('truetype'),
+    url('fonts/icomoon.svg?-7b5586#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e600";
+}
+.icon-twitter:before {
+  content: "\e601";
+}
+.icon-google-plus:before {
+  content: "\e603";
+}
+.icon-vimeo:before {
+  content: "\e602";
+}
+.icon-pinterest:before {
+  content: "\e604";
+}
+.icon-shop:before {
+  content: "\e605";
+}
+
+.i-top-fonts {
+  float: right;
+  margin-top: 1.2em;
+    ul li a {
+    font-size: 1.7em;
+    text-decoration: none;
+  }
+}
+
+.i-top-fonts ul li {
+  display: inline;
+  padding: 0.3em;
+}
+
+
+
+//icon fonts MQ's
+@media screen and (max-width: 920px) {
+  .i-top-fonts {
+    width: 100%;
+    height: auto;
+    margin-top: 2.4em;
+    font-size: 2em;
+ }
+}
+
+@media screen and (max-width: 800px) {
+  .i-top-fonts {
+  width: 100%;
+  height: auto;
+  margin-top: 1.4em;
+  font-size: 2em;
+ }
+}
+
+@media screen and (max-width: 480px) {
+  .i-top-fonts {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .i-top-fonts {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 1em;
+  }
+}
